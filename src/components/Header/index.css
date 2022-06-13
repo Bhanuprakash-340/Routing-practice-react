@@ -1,0 +1,50 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  width: 90%;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 25px;
+  padding-right: 5px;
+}
+
+.logo-name {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #12022f;
+}
+
+.list-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+  width: 60%;
+  /* border: 2px solid red; */
+}
+
+.list-item {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #12022f;
+}

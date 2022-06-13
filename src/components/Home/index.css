@@ -1,0 +1,19 @@
+.home-container {
+  /* border: 2px solid red; */
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-image {
+  height: 40%;
+}
+
+.display-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #6d396b;
+}
